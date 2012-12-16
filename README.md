@@ -9,8 +9,8 @@ This project provides a Flash plugin for overriding the embed code in the ‘Get
    e.g.  http://example.com/swf/GetCodeOverride.swf?viralPlayerID=15482486786464&viralPlayerWidth=480&viralPlayerHeight=270. Alternatively you can add this parameter  to the <a href="http://support.brightcove.com/en/docs/player-configuration-parameters">player publishing code</a> as below:
 
     <pre>&lt;param name=”viralPlayerID” value=”[default viral player ID]” /&gt;
-         &lt;param name=”viralPlayerWidth” value=”[default viral player width]” /&gt;
-	 &lt;param name=”viralPlayerHeight” value=”[default viral player height]” /&gt;</pre>
+    &lt;param name=”viralPlayerWidth” value=”[default viral player width]” /&gt;
+    &lt;param name=”viralPlayerHeight” value=”[default viral player height]” /&gt;</pre>
 	
    These parameters can be added via page URL where player published is e.g. http://mydomain.com/section/category/page?viralPlayerID=12314849203482&viralPlayerWidth=480&viralPlayerHeight=270
    
