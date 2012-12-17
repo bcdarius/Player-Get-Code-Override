@@ -1,5 +1,5 @@
 <h1>About</h1>
-This project provides a Flash plugin for overriding the embed code in the 'Get Code' player menu. The plugin will automatically replace the default HTML embed code with an iframe, so that the embedded player is a smart player that will work in both HTML5 and Flash environments
+This project provides a Flash plugin for overriding the embed code in the 'Get Code' player menu. The plugin will automatically replace the default HTML embed code with an iframe, so that the embedded player is a smart player that will work in both HTML5 and Flash environments.
 <h1>Deployment</h1>
 1. Download the latest GetCodeOverride.swf from <a href="http://bccodes.net/downloads/GetCodeOverride/v1.0.1/GetCodeOverride_v1.0.1.zip">here</a>
 2. Upload the SWF file to a server and make a note of the URL e.g. http://example.com/swf/GetCodeOverride.swf (make sure the swf is publicly accessible without any authentication or restriction);
