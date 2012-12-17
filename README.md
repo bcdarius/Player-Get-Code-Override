@@ -6,7 +6,7 @@ This project provides a Flash plugin for overriding the embed code in the 'Get C
 3. Place a <a href="http://support.brightcove.com/en/docs/cross-domain-security-flash">crossdomain.xml file</a> on the server's web root directory where SWF file resides to allow the Brightcove player to communicate to the SWF.
 4. Add "?viralPlayerID=[default viral player ID]&viralPlayerWidth=[default viral player width]&viralPlayerHeight=[default viral player height]" to URL by replacing [default viral player ID]  value with the <a href="http://support.brightcove.com/en/docs/setting-default-viral-player">default viral player</a> ID for your account,
    [default viral player width] with viral player's width and [default viral player height] with viral player's height
-   e.g.  http://example.com/swf/GetCodeOverride.swf?viralPlayerID=15482486786464&viralPlayerWidth=480&viralPlayerHeight=270. Alternatively you can add this parameter  to the <a href="http://support.brightcove.com/en/docs/player-configuration-parameters">player publishing code</a> as below:
+   e.g.  http://example.com/swf/GetCodeOverride.swf?viralPlayerID=15482486786464&viralPlayerWidth=480&viralPlayerHeight=270. Alternatively you can add these parameters to the <a href="http://support.brightcove.com/en/docs/player-configuration-parameters">player publishing code</a> as below:
 
     <pre>&lt;param name="viralPlayerID" value="[default viral player ID]" /&gt;
     &lt;param name="viralPlayerWidth" value="[default viral player width]" /&gt;
